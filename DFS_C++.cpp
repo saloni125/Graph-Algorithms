@@ -28,7 +28,7 @@ int main(){
     while(e--){
         cin >> src >> des;
         graph[src].push_back(des);
-		graph[des].push_back(src);
+	graph[des].push_back(src);
     }
      dfs(v);
    
